@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    padding: '960px';
+    font-size: '18px';
+}
+Header, Nav, Section, Aside, Footer {
+    background: '#ebebeb';
+}
+article {
+    color: '#ebebeb';
+    background: '#777';
+}
+h1, p {
+    color: '#777';
+    background: '#ebebeb'
+}
+section {
+    float: left
+}
+aside {
+    float: right
+}
