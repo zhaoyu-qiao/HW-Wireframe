@@ -1,24 +1,38 @@
 body {
     font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
-    color: '#777';
-    background: '#777';
-    padding: '960px';
-    font-size: '18px';
+    color:black;
+    background-color: #777;
+    width: 960px; 
+    height:539px;
+    font-size: 18px;
+    text-align: center;
 }
-Header, Nav, Section, Aside, Footer {
-    background: '#ebebeb';
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
 }
-article {
-    color: '#ebebeb';
-    background: '#777';
+
+.long-white-block {
+    padding:30px;
+    margin:10px;
+    clear:both;
 }
-h1, p {
-    color: '#777';
-    background: '#ebebeb'
+
+section, aside {
+    float:left;
 }
+
 section {
-    float: left
+    margin:10px;
+    height:80px;
+    width: 50%;
+    padding:20px;
+    float:left;   
 }
+
 aside {
-    float: right
+    margin:20px;
+    height:80px;
+    width:50%;
+    float:left;
 }
